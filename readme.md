@@ -78,6 +78,9 @@ pip install -r requirements.txt
 
 4. Navigate to the directory containing requirements.txt.
 
+```
+cd sct_round2
+```
 
 ## Usage
 
