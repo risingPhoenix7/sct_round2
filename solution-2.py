@@ -26,14 +26,13 @@ from sklearn.naive_bayes import BernoulliNB, MultinomialNB
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
-# from xgboost import XGBRegressor
-# from lightgbm import LGBMRegressor
-# from catboost import CatBoostRegressor
+from xgboost import XGBRegressor
+from lightgbm import LGBMRegressor
+from catboost import CatBoostRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # %%
-%pip install --upgrade setuptools
 
 # %%
 from sklearn.linear_model import LinearRegression, Ridge, Lasso
@@ -45,7 +44,6 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.gaussian_process import GaussianProcessRegressor
 
 # %%
-%pip install pkg_resources
 
 # %% [markdown]
 # # Loading dataset
