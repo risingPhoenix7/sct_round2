@@ -40,7 +40,7 @@ to install the dependencies.
 Open the notebook in Jupyter Notebook or JupyterLab:
 
 ```
-jupyter notebook "solution copy 2.ipynb"
+jupyter notebook "solution.ipynb"
 ```
 
 Follow the instructions and code cells within the notebook to run the analysis or prediction models.
