@@ -1,6 +1,6 @@
 # Predicting Remaining Useful Life (RUL) of Hard Drives
 
-[GOTO STEUP](#Installation)
+[GOTO:  STEUP](#Installation)
 
 ## Submitted File: solution.ipynb
 
@@ -61,26 +61,26 @@ Jupyter Notebook or JupyterLab
 
 To set up your environment to run the notebook, follow these steps:
 
-Clone the repository (if applicable) or download the notebook to your local machine.
+1. Clone the repository (if applicable) or download the notebook to your local machine.
 
-Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
 
 ```
 python3 -m venv myenv
 source myenv/bin/activate # On Windows, use `myenv\Scripts\activate`
 ```
-Install required libraries:
+3. Install required libraries:
 
-Navigate to the directory containing requirements.txt.
-
-Run
 
 ```
 pip install -r requirements.txt
 ```
-to install the dependencies.
+
+4. Navigate to the directory containing requirements.txt.
+
 
 ## Usage
+
 Open the notebook in Jupyter Notebook or JupyterLab:
 
 ```
