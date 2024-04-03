@@ -1,6 +1,6 @@
 # Predicting Remaining Useful Life (RUL) of Hard Drives
 
-[GOTO:  STEUP](#Installation)
+[GOTO:  SETUP](#Installation)
 
 ## Submitted File: solution.ipynb
 
