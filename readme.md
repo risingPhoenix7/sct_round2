@@ -82,7 +82,11 @@ pip install -r requirements.txt
 cd sct_round2
 ```
 
-5. Add data file as harddrive/harddrive.csv **OR** replace file path in code (on line ) with your file
+5. Add data file as harddrive/harddrive.csv **OR** replace file path in code (on block 2, "Loading Datset") with your file
+
+```
+df = pd.read_csv('harddrive/harddrive.csv')
+```
 
 
 ## Usage
