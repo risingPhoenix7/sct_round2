@@ -1,5 +1,7 @@
 # Predicting Remaining Useful Life (RUL) of Hard Drives
 
+## Submitted File: solution.ipynb
+
 This project focuses on predicting the remaining useful life (RUL) of hard drives using various machine learning models.
 
 ## Overview
