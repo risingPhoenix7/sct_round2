@@ -82,6 +82,9 @@ pip install -r requirements.txt
 cd sct_round2
 ```
 
+5. Add data file as harddrive/harddrive.csv **OR** replace file path in code (on line ) with your file
+
+
 ## Usage
 
 Open the notebook in Jupyter Notebook or JupyterLab:
