@@ -105,7 +105,7 @@ The following image illustrates the importance of various features used (extract
 
 ![](Images/feature%20importances.jpeg)
 
-The following image illustrates the performance of various regression models in terms of MAE and ranks them accordingly. The top two models are XGBoost & RandomForest and we have experimented over random forest for hyperparameter tuning and further results.
+The following image illustrates the performance of various regression models in terms of MAE and ranks them accordingly. The top two models are XGBoost & RandomForest and we have experimented over random forest for hyperparameter tuning and further results. (The list is sorted on RMSE: Root mean squared error)
 ![](Images/model%20results.jpeg)
 
 Below are the predicted vs actual results of a low-performing model as signified by the above MAE table, decision tree.
