@@ -100,6 +100,21 @@ jupyter notebook "solution.ipynb"
 Follow the instructions and code cells within the notebook to run the analysis or prediction models.
 
 
+## Results
+The following image illustrates the importance of various features used (extracted by fitting a random forest regressor) including our engineered features such as MOVING_AVERAGE_READ_ERROR_RATE having very high importance.
+
+![](Images/feature%20importances.jpeg)
+
+The following image illustrates the performance of various regression models in terms of MAE and ranks them accordingly. The top two models are XGBoost & RandomForest and we have experimented over random forest for hyperparameter tuning and further results.
+![](Images/model%20results.jpeg)
+
+Below are the predicted vs actual results of a low-performing model as signified by the above MAE table, decision tree.
+![](Images/dec%20tree.jpeg)
+
+In comparison, the two below images show the predicted vs actual values for a random forest regression with (1st image) and without (2nd) hyperparameter optimisation.
+![](Images/rf%20hypopt.jpeg)
+![](Images/rf.jpeg)
+
 ## Conclusion
 
 This project aims to provide insights into the health and remaining lifespan of hard drives using machine learning techniques. By leveraging feature engineering and a variety of regression models, it seeks to optimize the prediction accuracy of the remaining useful life of hard drives, thereby facilitating proactive maintenance and risk management strategies.
